@@ -1,12 +1,12 @@
 def main():
     #escribe tu código abajo de esta línea
-    n = int(1000)
-    u = int(350)
+    x = int(1000)
+    y = int(350)
 
-    nc = int(input("Dame la cantidad de juegos nuevos:"))
-    uc = int(input("Dame la cantidad de juegos usados:"))
+    jn = int(input("Dame la cantidad de juegos nuevos:"))
+    ju = int(input("Dame la cantidad de juegos usados:"))
 
-    comp = nc * n + uc * u
+    comp = jn * x + ju * y
 
     print("El total de la compra es:", comp)
 
