@@ -5,6 +5,7 @@ def main():
     #escribe tu código abajo de esta línea
     #Leer los datos
     total = (msj + mb + minutos) * 0.80
+    print(total)
     pass
 
 
